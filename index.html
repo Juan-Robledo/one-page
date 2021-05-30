@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctadevs</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headers" id="app">
+                <img src="./assets/image/logo.png" alt="Doctadevs">
+        </div>
+        <nav class="navbar">
+            <li><a href="#"><i class="fa fa-fw fa-home"></i> Home</a></li>
+            <li><a href="#Cursos"><i class="fas fa-user-graduate"></i> Cursos</a></li>
+            <li><a href="#Becas"><i class="fas fa-newspaper"></i> Becas</a></li>
+            <li><a href="#Pasantias"><i class="fas fa-briefcase"></i> Pasantias</a></li>
+            <li><a href="#Staff"><i class="fa fa-users"></i> Staff</a></li>
+            <li><a href="#Testimonios"><i class="far fa-comment-alt"></i> Testimonios</a></li>
+            <li><a href="#Contactanos"><i class="fa fa-fw fa-envelope"></i> Contactanos</a></li>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="home" id="home">
+            <img src="./assets/image/home.png">
+            <span><strong>Sumergite en el mundo de la tecnología a través de cursos presenciales en nuestra sede de Barrio Cofico, Córdoba.</strong></span>
+            <span>Aprendé a programar en un ambiente distendido e innovador, de la mano de los mejores profesionales de la industria informática.</span>
+        </div>
+        <div class="cursos" id="Cursos">
+            <div class="staff-profile-subtitle">
+                <h2>Nuestro <strong>Cursos</strong></h2>
+            </div>
+            <div class="cursos-box">
+                <h3>React Native</h3>
+                <div class="cursos-individual">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjjGY9Rh94XmNxiwduzJQ8sHNcK8J5YAhKtQ&usqp=CAU" alt="React Native">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam veniam, omnis accusantium, quibusdam rerum eos dolorum temporibus vitae, laboriosam vero natus odio similique. Dolorum esse odio excepturi voluptatibus aliquid.</p>
+                </div>
+                <h3>Vue.js</h3>
+                <div class="cursos-individual">
+                    <img src="https://pbs.twimg.com/media/EhgkX8jX0AANnXO.jpg" alt="Vue.js">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam veniam, omnis accusantium, quibusdam rerum eos dolorum temporibus vitae, laboriosam vero natus odio similique. Dolorum esse odio excepturi voluptatibus aliquid.</p>
+                </div>
+                <h3>Front-End</h3>
+                <div class="cursos-individual">
+                    <img src="https://pbs.twimg.com/media/EgireILXsAEHLuo.jpg" alt="Front-End">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam veniam, omnis accusantium, quibusdam rerum eos dolorum temporibus vitae, laboriosam vero natus odio similique. Dolorum esse odio excepturi voluptatibus aliquid.</p>
+                </div>
+                    <h3>Full-Stack Web Developer</h3>
+                <div class="cursos-individual">
+                    <img src="https://pbs.twimg.com/media/EQ_uUuLWkAECCvZ.jpg" alt="Full-Stack Web Developer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam veniam, omnis accusantium, quibusdam rerum eos dolorum temporibus vitae, laboriosam vero natus odio similique. Dolorum esse odio excepturi voluptatibus aliquid.</p>
+                </div>
+                    <h3>Full-Stack Web Developer</h3>
+                <div class="cursos-individual">
+                    <img src="https://pbs.twimg.com/media/EQ_uUuLWkAECCvZ.jpg" alt="Full-Stack Web Developer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quisquam veniam, omnis accusantium, quibusdam rerum eos dolorum temporibus vitae, laboriosam vero natus odio similique. Dolorum esse odio excepturi voluptatibus aliquid.</p>
+                </div>
+            </div>
+        </div>
+        <div class="becas" id="Becas">
+            <div class="staff-profile-subtitle">
+                <h2>Becas</h2>
+            </div>
+            <div class="becas">
+                <img src="./assets/image/becas.jpg">
+                <span><strong>Sumergite en el mundo de la tecnología a través de cursos presenciales en nuestra sede de Barrio Cofico, Córdoba.</strong></span>
+                <span>Aprendé a programar en un ambiente distendido e innovador, de la mano de los mejores profesionales de la industria informática.</span>
+            </div>
+        </div>
+        <div class="becas" id="Pasantias">
+            <div class="staff-profile-subtitle">
+                <h2>Pasantias</h2>
+            </div>
+            <div class="becas">
+                <img src="./assets/image/pasantias.jpg">
+                <span><strong>Sumergite en el mundo de la tecnología a través de cursos presenciales en nuestra sede de Barrio Cofico, Córdoba.</strong></span>
+                <span>Aprendé a programar en un ambiente distendido e innovador, de la mano de los mejores profesionales de la industria informática.</span>
+            </div>
+        </div>
+        <div class="staff" id="Staff">
+            <div class="staff-profile-subtitle">
+                <h2>Nuestro <strong>Profesores</strong></h2>
+            </div>
+            <div class="staff-profile">
+                <div class="staff-profile-box">
+                    <img src="https://pbs.twimg.com/profile_images/1274885769019228161/U538bRxk_400x400.jpg" alt="Foto del perfil de joelalejandro">
+                    <h4>Joel Alejandro Villarreal Bertoldi</h4>
+                    <p>Tech Lead en @mercadolibre.arg</p>
+                    <p>Co-Founder @SomosCodear + @VueCba</p>
+                    <a href="https://twitter.com/JoelAlejandro"><i class="fab fa-twitter"></i>@JoelAlejandro</a>
+                </div>
+                <div class="staff-profile-box">
+                    <img src="https://static.platzi.com/media/teachers/teachers/584-cristian-ramanzin" alt="Cristian Ramanzin">
+                    <h4>Cristian Ramanzin</h4>
+                    <p>Co-Founder en Lunestudio</p>
+                    <a href="https://twitter.com/ramitaenlarama"><i class="fab fa-twitter"></i>@ramitaenlarama</a>
+                </div>
+                <div class="staff-profile-box">
+                    <img src="https://static.platzi.com/media/teachers/avatar_lucio.jpeg" alt="Lucio Negrello">
+                    <h4>Lucio Negrello</h4>
+                    <p>CEO / WP Developer en Lunestudio</p>
+                    <a href="https://twitter.com/whoisnegrello"><i class="fab fa-twitter"></i>@whoisnegrello</a>
+                </div>
+                <div class="staff-profile-box">
+                    <img style="height:auto;" alt="Avatar" width="260" height="260" class="avatar avatar-user width-full border bg-white" src="https://avatars1.githubusercontent.com/u/44165238?s=460&amp;u=033469a8703e8cf00467b42571f91a57114db285&amp;v=4" alt="Franco Colares">
+                    <h4>Franco Colares</h4>
+                    <p>Freelance Full-Stack / Co-Founder @VueCba</p>
+                    <a href="https://github.com/fecocode"><i class="fab fa-github"></i> fecocode</a>
+                </div>
+            </div>
+        </div>
+        <div class="cursos-box" id="Testimonios">
+            <div class="staff-profile-subtitle">
+                <h2>Testimonios</h2>
+            </div>
+            <div class="cursos-individual testimonios">
+                <img src="https://pbs.twimg.com/media/EhGrfrFXsAEO_tb.jpg" alt="Pilar Chanampe">
+                <p>"Mi nombre es Pilar Chanampe. Soy Lic. en Música y artista visual, pero desde el año pasado decidí meterme de lleno en la programación y el desarrollo web."</p>
+            </div>
+        </div>
+        <div class="form" id="Contactanos">
+            <div class="staff-profile-subtitle">
+                <h2>Contactanos</h2>
+            </div>
+            <div class="form-paragraph">
+                <span>Dejanos tus datos y te ayudamos a dar tus primeros pasos en este camino.</span>
+            </div>
+            <div class="form-contact">
+                <form action="">
+                    <!-- <label for="nombre">Nombre y Apellido:</label> -->
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+                    <!-- <label for="telefono">Telefono:</label> -->
+                    <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
+                    <!-- <label for="email">Email:</label> -->
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <!-- <label for="mensaje">Consulta:</label> -->
+                    <textarea name="mensaje" id="mensaje" placeholder="Consulta"></textarea>
+                    <input type="submit" value="Enviar Consulta">
+                </form>
+            </div>
+        </div>
+        <div class="form-newsletter">
+            <h3>Suscribite a nuestro newsletter</h3>
+            <p>Lo estaremos informando de todas las novedades en nuestra academia</p>
+            <form action=""  id="newsletter">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo electronico">
+                <input type="submit" value="Suscribirse">
+            </form>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="footer-contenedor">
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Mariano Fragueiro 1030</p>
+                <p><i class="fab fa-whatsapp"></i> 3518162825</p>
+            </div>
+            <div class="footer-social">
+                <h4>Seguinos</h4>
+                <p><a href="https://twitter.com/doctadevsok"><i class="fab fa-twitter"></i> Twitter</a></p>
+                <p><a href="https://www.instagram.com/doctadevs_/"><i class="fab fa-instagram"></i> Instagram</a></p>
+            </div>
+            <div class="footer-community">
+                <h4>Comunidades</h4>
+                <p><a href="https://vuecba.com/"><i class="fa fa-users"></i> VueCba</a></p>
+                <p><a href="https://beerjscba.com/"><i class="fa fa-users"></i> beerjscba</a></p>
+                <p><a href="https://codear.org/"><i class="fa fa-users"></i> SomosCodear</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copy">
+        <p>© doctadevs 2020</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
